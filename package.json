@@ -1,0 +1,30 @@
+{
+  "name": "upwork-test",
+  "version": "0.2.5",
+  "description": "An app to do analyse page.",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.22.0",
+    "cors": "^2.8.1",
+    "express": "^4.13.4",
+    "meta-extractor": "^1.1.1",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
